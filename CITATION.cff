@@ -7,6 +7,7 @@ authors:
     given-names: Hemendra
     affiliation: "Gravity Exploration Institute, School of Physics and Astronomy, Cardiff University"
 version: 0.2.2
+doi: 10.5281/zenodo.23119422
 date-released: 2026-10-03
 license: BSD-3-Clause
 repository-code: "https://github.com/Hemendra-singh-mewar/GW190521-reanalysis"

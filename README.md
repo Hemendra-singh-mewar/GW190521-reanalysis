@@ -9,7 +9,8 @@ shows how waveform reference times and network assumptions affect the result.
 [Read the methods note](paper/GW190521_methods_note.pdf) ·
 [Open the notebook](notebooks/GW190521_reanalysis.ipynb) ·
 [Inspect the results](results/) ·
-[Validation and limits](docs/validation_report.md)
+[Validation and limits](docs/validation_report.md) ·
+[Zenodo archive: 10.5281/zenodo.23119422](https://zenodo.org/records/23119422)
 
 ![Network filtering comparison](figures/snr_comparison.png)
 
@@ -106,8 +107,10 @@ The current release is an open methods and software study. The accompanying
 paper makes only this restricted claim. A source-inference paper still needs
 physical joint parameter exploration, finite priors, convergence diagnostics,
 calibration and PSD uncertainty treatment, and comparison with official joint
-posterior samples. No arXiv identifier or Zenodo DOI is claimed until a service
-actually issues one. See [publication status](docs/publication_status.md).
+posterior samples. Version 0.2.2 is archived on Zenodo under DOI
+[10.5281/zenodo.23119422](https://zenodo.org/records/23119422). arXiv submission
+is paused; no arXiv identifier has been issued. See
+[publication status](docs/publication_status.md).
 
 ## Project contents
 
