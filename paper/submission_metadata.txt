@@ -1,0 +1,10 @@
+Title: Revisiting GW190521 with open data: waveform timing, noise weighting and network consistency
+Authors: Hemendra Singh
+Affiliation for the work: Gravity Exploration Institute, School of Physics and Astronomy, Cardiff University
+Year the work was carried out: 2024
+Suggested primary category: gr-qc
+Comments: 8 pages; methods and reproducibility note; companion software version 0.2.2
+Status: Prepared source; not submitted
+
+Abstract:
+The short duration of GW190521 makes it a useful case for examining how implementation choices affect a comparison between physical and phenomenological gravitational wave templates. This study presents a reproducible analysis of public Hanford, Livingston and Virgo strain, using quality screened off-source noise estimates, explicit waveform reference times and three separately defined network statistics. Two nonspinning compact binary templates are compared with a circularly polarised sine Gaussian, evaluated both at a fixed shape and on a declared frequency and quality-factor grid. The common-time quadrature statistic is 14.175 for the fixed sine Gaussian, 14.481 for SEOBNRv4_opt and 13.949 for IMRPhenomXPHM; the best sampled sine Gaussian reaches 14.466. A controlled ablation shows that discarding the burst template's reference time reduces its independent-peak summary from 14.314 to 5.682. Independent time-domain injections and Gaussian-noise amplitude tests validate the corrected conventions. These results describe a restricted morphology comparison and a reproducibility case study. They do not provide source-parameter posteriors, detection significance or evidence favouring one astrophysical interpretation.

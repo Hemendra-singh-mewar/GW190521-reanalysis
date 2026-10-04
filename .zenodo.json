@@ -1,0 +1,33 @@
+{
+  "title": "Revisiting GW190521 with open data: waveform timing, noise weighting and network consistency",
+  "upload_type": "software",
+  "publication_date": "2026-10-03",
+  "version": "0.2.2",
+  "license": "BSD-3-Clause",
+  "creators": [
+    {
+      "name": "Singh, Hemendra",
+      "affiliation": "Gravity Exploration Institute, School of Physics and Astronomy, Cardiff University"
+    }
+  ],
+  "description": "<p>A reproducible methods and software study of public GW190521 H1, L1 and V1 strain. The release includes timing-corrected CBC and sine Gaussian filtering, quality screened off-source PSDs, distinct network statistics, 11 regression cases, 384 conditional Gaussian-noise amplitude trials, a runnable notebook and a methods note.</p><p>This is a fixed morphology comparison with illustrative geometry. It does not provide astrophysical posteriors, detection significance or Bayesian model selection.</p><p>The work was carried out in 2024 at the Gravity Exploration Institute, School of Physics and Astronomy, Cardiff University. The public implementation and methods note were subsequently reconstructed and revised from that project.</p>",
+  "keywords": [
+    "GW190521",
+    "gravitational waves",
+    "GWOSC",
+    "PyCBC",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Hemendra-singh-mewar/GW190521-reanalysis",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1103/PhysRevLett.125.101102",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

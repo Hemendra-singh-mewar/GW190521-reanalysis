@@ -1,0 +1,45 @@
+{
+  "seed": 20261002,
+  "realisations_per_model": 128,
+  "network_optimal_snr": 20,
+  "injection_time_gps": 1242442967.375,
+  "scope": "Known template shape, geometry and time; real common amplitude only; ideal Gaussian noise from measured PSDs.",
+  "models": {
+    "Sine Gaussian (fixed)": {
+      "mean_standardised_amplitude_error": 0.020788107176847596,
+      "sd_standardised_amplitude_error": 0.9249296274730741,
+      "fraction_within_1_sigma": 0.71875,
+      "fraction_within_2_sigma": 0.9765625
+    },
+    "SEOBNRv4_opt": {
+      "mean_standardised_amplitude_error": -0.0502904480488351,
+      "sd_standardised_amplitude_error": 0.9710689901614493,
+      "fraction_within_1_sigma": 0.6875,
+      "fraction_within_2_sigma": 0.9453125
+    },
+    "IMRPhenomXPHM": {
+      "mean_standardised_amplitude_error": -0.019633771905933184,
+      "sd_standardised_amplitude_error": 1.0085626126057707,
+      "fraction_within_1_sigma": 0.6328125,
+      "fraction_within_2_sigma": 0.96875
+    }
+  },
+  "epoch_ablation": {
+    "correct_reference": {
+      "H1": 7.849139788261912,
+      "L1": 11.315070820974256,
+      "V1": 3.906228371651499,
+      "Independent_peak_bound": 14.314274106318992,
+      "Time_aligned": 14.175429344635063,
+      "Fixed_response_coherent": 6.861596859107569
+    },
+    "epoch_discarded": {
+      "H1": 3.2937279003487796,
+      "L1": 2.8180392020431317,
+      "V1": 3.6732216793458723,
+      "Independent_peak_bound": 5.6817731326940875,
+      "Time_aligned": 4.40399259286769,
+      "Fixed_response_coherent": 2.9767993645387243
+    }
+  }
+}

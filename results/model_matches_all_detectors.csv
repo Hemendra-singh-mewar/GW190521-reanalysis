@@ -1,0 +1,49 @@
+detector,model_a,model_b,match
+H1,Sine Gaussian (fixed),Sine Gaussian (fixed),1.0
+H1,Sine Gaussian (fixed),SEOBNRv4_opt,0.8039477069615276
+H1,Sine Gaussian (fixed),IMRPhenomXPHM,0.7860629040501945
+H1,Sine Gaussian (fixed),Sine Gaussian (grid),0.9829256259735776
+H1,SEOBNRv4_opt,Sine Gaussian (fixed),0.803947706961528
+H1,SEOBNRv4_opt,SEOBNRv4_opt,0.9999999999999999
+H1,SEOBNRv4_opt,IMRPhenomXPHM,0.9612076414463002
+H1,SEOBNRv4_opt,Sine Gaussian (grid),0.853699639821952
+H1,IMRPhenomXPHM,Sine Gaussian (fixed),0.7860629040501945
+H1,IMRPhenomXPHM,SEOBNRv4_opt,0.9612076414463004
+H1,IMRPhenomXPHM,IMRPhenomXPHM,1.0
+H1,IMRPhenomXPHM,Sine Gaussian (grid),0.8378589082929163
+H1,Sine Gaussian (grid),Sine Gaussian (fixed),0.9829256259735776
+H1,Sine Gaussian (grid),SEOBNRv4_opt,0.8536996398219519
+H1,Sine Gaussian (grid),IMRPhenomXPHM,0.8378589082929162
+H1,Sine Gaussian (grid),Sine Gaussian (grid),0.9999999999999998
+L1,Sine Gaussian (fixed),Sine Gaussian (fixed),1.0000000000000004
+L1,Sine Gaussian (fixed),SEOBNRv4_opt,0.7518322757786701
+L1,Sine Gaussian (fixed),IMRPhenomXPHM,0.7410267474546718
+L1,Sine Gaussian (fixed),Sine Gaussian (grid),0.9776426517035126
+L1,SEOBNRv4_opt,Sine Gaussian (fixed),0.7518322757786701
+L1,SEOBNRv4_opt,SEOBNRv4_opt,1.0
+L1,SEOBNRv4_opt,IMRPhenomXPHM,0.9678650936963062
+L1,SEOBNRv4_opt,Sine Gaussian (grid),0.8151400251387512
+L1,IMRPhenomXPHM,Sine Gaussian (fixed),0.7410267474546717
+L1,IMRPhenomXPHM,SEOBNRv4_opt,0.9678650936963062
+L1,IMRPhenomXPHM,IMRPhenomXPHM,0.9999999999999999
+L1,IMRPhenomXPHM,Sine Gaussian (grid),0.8070722310378022
+L1,Sine Gaussian (grid),Sine Gaussian (fixed),0.9776426517035126
+L1,Sine Gaussian (grid),SEOBNRv4_opt,0.8151400251387511
+L1,Sine Gaussian (grid),IMRPhenomXPHM,0.8070722310378022
+L1,Sine Gaussian (grid),Sine Gaussian (grid),1.0
+V1,Sine Gaussian (fixed),Sine Gaussian (fixed),1.0
+V1,Sine Gaussian (fixed),SEOBNRv4_opt,0.8081777364116299
+V1,Sine Gaussian (fixed),IMRPhenomXPHM,0.7937117986165899
+V1,Sine Gaussian (fixed),Sine Gaussian (grid),0.9870557533108689
+V1,SEOBNRv4_opt,Sine Gaussian (fixed),0.8081777364116299
+V1,SEOBNRv4_opt,SEOBNRv4_opt,1.0000000000000002
+V1,SEOBNRv4_opt,IMRPhenomXPHM,0.9683607770574713
+V1,SEOBNRv4_opt,Sine Gaussian (grid),0.8472025835875568
+V1,IMRPhenomXPHM,Sine Gaussian (fixed),0.7937117986165898
+V1,IMRPhenomXPHM,SEOBNRv4_opt,0.9683607770574714
+V1,IMRPhenomXPHM,IMRPhenomXPHM,0.9999999999999998
+V1,IMRPhenomXPHM,Sine Gaussian (grid),0.837461591495922
+V1,Sine Gaussian (grid),Sine Gaussian (fixed),0.9870557533108688
+V1,Sine Gaussian (grid),SEOBNRv4_opt,0.8472025835875566
+V1,Sine Gaussian (grid),IMRPhenomXPHM,0.8374615914959221
+V1,Sine Gaussian (grid),Sine Gaussian (grid),1.0

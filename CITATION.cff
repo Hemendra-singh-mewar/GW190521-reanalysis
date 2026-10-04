@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software release and the original GWOSC, GW190521 and software sources listed in the methods note."
+type: software
+title: "Revisiting GW190521 with open data: waveform timing, noise weighting and network consistency"
+authors:
+  - family-names: Singh
+    given-names: Hemendra
+    affiliation: "Gravity Exploration Institute, School of Physics and Astronomy, Cardiff University"
+version: 0.2.2
+date-released: 2026-10-03
+license: BSD-3-Clause
+repository-code: "https://github.com/Hemendra-singh-mewar/GW190521-reanalysis"
+keywords:
+  - gravitational waves
+  - GW190521
+  - reproducibility
+  - matched filtering
+  - PyCBC
+  - GWOSC

@@ -1,0 +1,799 @@
+{
+  "config": {
+    "event": "GW190521",
+    "gps": 1242442967.4,
+    "ifos": [
+      "H1",
+      "L1",
+      "V1"
+    ],
+    "sample_rate": 2048,
+    "event_duration": 32,
+    "psd_duration": 512,
+    "psd_gap": 32,
+    "psd_fftlength": 8,
+    "psd_overlap": 4,
+    "f_low": 20.0,
+    "f_high": 256.0,
+    "on_source_half_width": 0.15,
+    "redshift": 0.56,
+    "mass_1_source": 98.4,
+    "mass_2_source": 57.2,
+    "distance_mpc": 3310.0,
+    "right_ascension": 3.6,
+    "declination": -0.7,
+    "polarisation": 1.5,
+    "inclination": 1.0,
+    "burst_frequency": 60.0,
+    "burst_q": 8.0,
+    "burst_ellipticity": 1.0,
+    "data_dir": "data",
+    "figures_dir": "figures",
+    "results_dir": "results"
+  },
+  "environment": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "pycbc": "2.11.0",
+    "lalsuite": "7.26.16",
+    "gwpy": "3.0.14",
+    "gwosc": "0.8.3",
+    "astropy": "8.0.1",
+    "h5py": "3.16.0",
+    "matplotlib": "3.11.2",
+    "pandas": "2.3.3"
+  },
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "mass_1_detector_msun": 153.50400000000002,
+  "mass_2_detector_msun": 89.23200000000001,
+  "psd_intervals": {
+    "H1": [
+      1242442423,
+      1242442427,
+      1242442431,
+      1242442435,
+      1242442439,
+      1242442443,
+      1242442447,
+      1242442451,
+      1242442455,
+      1242442459,
+      1242442463,
+      1242442467,
+      1242442471,
+      1242442475,
+      1242442479,
+      1242442483,
+      1242442487,
+      1242442491,
+      1242442495,
+      1242442499,
+      1242442503,
+      1242442507,
+      1242442511,
+      1242442515,
+      1242442519,
+      1242442523,
+      1242442527,
+      1242442531,
+      1242442535,
+      1242442539,
+      1242442543,
+      1242442547,
+      1242442551,
+      1242442555,
+      1242442559,
+      1242442563,
+      1242442567,
+      1242442571,
+      1242442575,
+      1242442591,
+      1242442595,
+      1242442599,
+      1242442603,
+      1242442607,
+      1242442611,
+      1242442615,
+      1242442619,
+      1242442623,
+      1242442627,
+      1242442631,
+      1242442635,
+      1242442639,
+      1242442643,
+      1242442647,
+      1242442651,
+      1242442655,
+      1242442659,
+      1242442663,
+      1242442667,
+      1242442671,
+      1242442675,
+      1242442679,
+      1242442683,
+      1242442687,
+      1242442691,
+      1242442695,
+      1242442699,
+      1242442703,
+      1242442707,
+      1242442711,
+      1242442715,
+      1242442719,
+      1242442723,
+      1242442727,
+      1242442731,
+      1242442735,
+      1242442739,
+      1242442743,
+      1242442747,
+      1242442751,
+      1242442755,
+      1242442759,
+      1242442763,
+      1242442767,
+      1242442771,
+      1242442775,
+      1242442779,
+      1242442783,
+      1242442787,
+      1242442791,
+      1242442795,
+      1242442799,
+      1242442803,
+      1242442807,
+      1242442811,
+      1242442815,
+      1242442819,
+      1242442823,
+      1242442827,
+      1242442831,
+      1242442835,
+      1242442839,
+      1242442843,
+      1242442847,
+      1242442851,
+      1242442855,
+      1242442859,
+      1242442863,
+      1242442867,
+      1242442871,
+      1242442875,
+      1242442879,
+      1242442883,
+      1242442887,
+      1242442891,
+      1242442895,
+      1242442899,
+      1242442903,
+      1242442907,
+      1242442911,
+      1242442915,
+      1242442919,
+      1242442923,
+      1242442927
+    ],
+    "L1": [
+      1242442423,
+      1242442427,
+      1242442431,
+      1242442435,
+      1242442439,
+      1242442443,
+      1242442447,
+      1242442451,
+      1242442455,
+      1242442459,
+      1242442463,
+      1242442467,
+      1242442471,
+      1242442475,
+      1242442495,
+      1242442499,
+      1242442503,
+      1242442507,
+      1242442511,
+      1242442515,
+      1242442535,
+      1242442539,
+      1242442543,
+      1242442547,
+      1242442551,
+      1242442555,
+      1242442559,
+      1242442563,
+      1242442567,
+      1242442571,
+      1242442575,
+      1242442579,
+      1242442583,
+      1242442587,
+      1242442591,
+      1242442595,
+      1242442599,
+      1242442615,
+      1242442619,
+      1242442623,
+      1242442627,
+      1242442631,
+      1242442635,
+      1242442639,
+      1242442643,
+      1242442647,
+      1242442651,
+      1242442655,
+      1242442659,
+      1242442663,
+      1242442667,
+      1242442671,
+      1242442675,
+      1242442695,
+      1242442699,
+      1242442703,
+      1242442707,
+      1242442711,
+      1242442715,
+      1242442719,
+      1242442723,
+      1242442727,
+      1242442731,
+      1242442735,
+      1242442739,
+      1242442743,
+      1242442747,
+      1242442751,
+      1242442755,
+      1242442759,
+      1242442763,
+      1242442767,
+      1242442771,
+      1242442775,
+      1242442779,
+      1242442783,
+      1242442787,
+      1242442791,
+      1242442795,
+      1242442799,
+      1242442803,
+      1242442807,
+      1242442811,
+      1242442815,
+      1242442819,
+      1242442823,
+      1242442827,
+      1242442831,
+      1242442835,
+      1242442839,
+      1242442843,
+      1242442847,
+      1242442851,
+      1242442855,
+      1242442859,
+      1242442863,
+      1242442867,
+      1242442871,
+      1242442875,
+      1242442879,
+      1242442899,
+      1242442903,
+      1242442907,
+      1242442911,
+      1242442915,
+      1242442919,
+      1242442923,
+      1242442927
+    ],
+    "V1": [
+      1242442423,
+      1242442427,
+      1242442431,
+      1242442435,
+      1242442439,
+      1242442443,
+      1242442447,
+      1242442451,
+      1242442455,
+      1242442459,
+      1242442463,
+      1242442467,
+      1242442471,
+      1242442475,
+      1242442479,
+      1242442483,
+      1242442487,
+      1242442491,
+      1242442495,
+      1242442499,
+      1242442503,
+      1242442507,
+      1242442511,
+      1242442515,
+      1242442519,
+      1242442523,
+      1242442527,
+      1242442531,
+      1242442535,
+      1242442539,
+      1242442543,
+      1242442547,
+      1242442551,
+      1242442555,
+      1242442559,
+      1242442563,
+      1242442567,
+      1242442571,
+      1242442575,
+      1242442579,
+      1242442583,
+      1242442587,
+      1242442591,
+      1242442595,
+      1242442599,
+      1242442603,
+      1242442607,
+      1242442611,
+      1242442615,
+      1242442619,
+      1242442623,
+      1242442627,
+      1242442631,
+      1242442635,
+      1242442639,
+      1242442643,
+      1242442647,
+      1242442651,
+      1242442655,
+      1242442659,
+      1242442663,
+      1242442667,
+      1242442671,
+      1242442675,
+      1242442679,
+      1242442683,
+      1242442687,
+      1242442691,
+      1242442695,
+      1242442699,
+      1242442703,
+      1242442707,
+      1242442711,
+      1242442715,
+      1242442719,
+      1242442723,
+      1242442727,
+      1242442731,
+      1242442735,
+      1242442739,
+      1242442743,
+      1242442747,
+      1242442751,
+      1242442755,
+      1242442759,
+      1242442763,
+      1242442767,
+      1242442771,
+      1242442775,
+      1242442779,
+      1242442783,
+      1242442787,
+      1242442791,
+      1242442795,
+      1242442799,
+      1242442803,
+      1242442807,
+      1242442811,
+      1242442815,
+      1242442819,
+      1242442823,
+      1242442827,
+      1242442831,
+      1242442835,
+      1242442839,
+      1242442843,
+      1242442847,
+      1242442851,
+      1242442855,
+      1242442859,
+      1242442863,
+      1242442867,
+      1242442871,
+      1242442875,
+      1242442879,
+      1242442883,
+      1242442887,
+      1242442891,
+      1242442895,
+      1242442899,
+      1242442903,
+      1242442907,
+      1242442911,
+      1242442915,
+      1242442919,
+      1242442923,
+      1242442927
+    ]
+  },
+  "psd_estimator": "median of Hann periodograms, constant detrending, PyCBC median bias correction",
+  "data": {
+    "H1": {
+      "url": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW190521/v4/H-H1_GWOSC_4KHZ_R1-1242440920-4096.hdf5",
+      "bytes": 129562641,
+      "sha256": "2b266bdc3c3b1b8ccfd5ab31d3480f31a1835c7ac40c83c1db0069f41a84317d",
+      "intervals": {
+        "psd": {
+          "start_gps": 1242442423,
+          "end_gps": 1242442935,
+          "data_quality": {
+            "DATA": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT1": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT2": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT3": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "BURST_CAT1": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "BURST_CAT2": {
+              "pass_seconds": 510,
+              "total_seconds": 512
+            },
+            "BURST_CAT3": {
+              "pass_seconds": 510,
+              "total_seconds": 512
+            }
+          },
+          "hardware_injections": {
+            "NO_CBC_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_BURST_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_DETCHAR_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_CW_HW_INJ": {
+              "pass_seconds": 0,
+              "total_seconds": 512
+            },
+            "NO_STOCH_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            }
+          }
+        },
+        "event": {
+          "start_gps": 1242442951,
+          "end_gps": 1242442983,
+          "data_quality": {
+            "DATA": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT1": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT2": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT3": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT1": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT2": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT3": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            }
+          },
+          "hardware_injections": {
+            "NO_CBC_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_BURST_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_DETCHAR_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_CW_HW_INJ": {
+              "pass_seconds": 0,
+              "total_seconds": 32
+            },
+            "NO_STOCH_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            }
+          }
+        }
+      }
+    },
+    "L1": {
+      "url": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW190521/v4/L-L1_GWOSC_4KHZ_R1-1242440920-4096.hdf5",
+      "bytes": 129808619,
+      "sha256": "d1c25902074621e4a177ba830a9c0dfc7e13a7200b9e389d7f4ff01f974fadc2",
+      "intervals": {
+        "psd": {
+          "start_gps": 1242442423,
+          "end_gps": 1242442935,
+          "data_quality": {
+            "DATA": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT1": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT2": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT3": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "BURST_CAT1": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "BURST_CAT2": {
+              "pass_seconds": 485,
+              "total_seconds": 512
+            },
+            "BURST_CAT3": {
+              "pass_seconds": 485,
+              "total_seconds": 512
+            }
+          },
+          "hardware_injections": {
+            "NO_CBC_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_BURST_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_DETCHAR_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_CW_HW_INJ": {
+              "pass_seconds": 0,
+              "total_seconds": 512
+            },
+            "NO_STOCH_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            }
+          }
+        },
+        "event": {
+          "start_gps": 1242442951,
+          "end_gps": 1242442983,
+          "data_quality": {
+            "DATA": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT1": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT2": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT3": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT1": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT2": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT3": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            }
+          },
+          "hardware_injections": {
+            "NO_CBC_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_BURST_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_DETCHAR_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_CW_HW_INJ": {
+              "pass_seconds": 0,
+              "total_seconds": 32
+            },
+            "NO_STOCH_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            }
+          }
+        }
+      }
+    },
+    "V1": {
+      "url": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW190521/v4/V-V1_GWOSC_4KHZ_R1-1242440920-4096.hdf5",
+      "bytes": 129580776,
+      "sha256": "e31657a5fc474918095054a9231aefa543a3de75197694d76ac64113f3c1eb9a",
+      "intervals": {
+        "psd": {
+          "start_gps": 1242442423,
+          "end_gps": 1242442935,
+          "data_quality": {
+            "DATA": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT1": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT2": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "CBC_CAT3": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "BURST_CAT1": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "BURST_CAT2": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "BURST_CAT3": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            }
+          },
+          "hardware_injections": {
+            "NO_CBC_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_BURST_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_DETCHAR_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_CW_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            },
+            "NO_STOCH_HW_INJ": {
+              "pass_seconds": 512,
+              "total_seconds": 512
+            }
+          }
+        },
+        "event": {
+          "start_gps": 1242442951,
+          "end_gps": 1242442983,
+          "data_quality": {
+            "DATA": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT1": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT2": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "CBC_CAT3": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT1": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT2": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "BURST_CAT3": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            }
+          },
+          "hardware_injections": {
+            "NO_CBC_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_BURST_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_DETCHAR_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_CW_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            },
+            "NO_STOCH_HW_INJ": {
+              "pass_seconds": 32,
+              "total_seconds": 32
+            }
+          }
+        }
+      }
+    }
+  },
+  "responses": {
+    "H1": {
+      "F_plus": 0.35016270634504865,
+      "F_cross": -0.34836312610879383,
+      "delay_from_geocentre_s": 0.0014835485019213553
+    },
+    "L1": {
+      "F_plus": -0.49170718119007406,
+      "F_cross": 0.21748591282253193,
+      "delay_from_geocentre_s": -0.006739208033749149
+    },
+    "V1": {
+      "F_plus": -0.43585865192096745,
+      "F_cross": -0.049398304804817536,
+      "delay_from_geocentre_s": 0.009068022978347185
+    }
+  },
+  "grid_best": {
+    "frequency_hz": 58.0,
+    "q": 6.0
+  },
+  "scope": "Fixed waveform shapes and illustrative fixed geometry; no posterior, Bayes factor, detection significance or source-parameter recovery."
+}
